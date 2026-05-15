@@ -4,14 +4,17 @@ const Hero = () => {
   return (
     <section className="bg-[#0e0e0e] text-white h-screen flex items-center px-10">
       <div className="max-w-4xl">
-        <h4 className="text-gray-400 tracking-widest mb-4">HELLO, I'M JAHID HASAN</h4>
+        <h4 className="text-gray-400 tracking-widest mb-4 text-3xl font-bold">HELLO, I'M JAHID HASAN</h4>
         <h1 className="text-6xl md:text-8xl font-bold leading-tight mb-8">
-          MERN STRACK <span className="text-gray-500 underline">Designer</span> & Developer.
+          MERN STRACK <span className=" text-amber-300 underline">Designer</span> & Developer.
         </h1>
         <button className="border border-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition duration-300">
           View My CV
         </button>
-      </div>
+        </div>
+        <div className='w-150 rounded-3xl overflow-hidden border-4 border-amber-500 '>
+          <img src="https://res.cloudinary.com/dqrofv2dd/image/upload/v1778846300/Adobe_Express_-_file_1_slecjk.jpg" alt="#" />
+        </div>
     </section>
   )
 }

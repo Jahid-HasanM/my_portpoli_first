@@ -4,6 +4,9 @@ import Services from './components/Services'
 import Navbar from './components/Navbar'
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import Pricing from './components/Pricing';
+import Contact from './components/Contact';
+
 
 const App = () => {
   return (
@@ -12,8 +15,10 @@ const App = () => {
     <Hero />
     <Portfolio />
     <Services />
+    <Pricing />
+    <Contact />
     <Footer />
-    </>
+        </>
     
   );
 };
