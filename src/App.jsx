@@ -6,6 +6,8 @@ import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
+import About from './components/About';
+
 
 
 const App = () => {
@@ -14,6 +16,7 @@ const App = () => {
     <Navbar />
     <Hero />
     <Portfolio />
+    <About />
     <Services />
     <Pricing />
     <Contact />
