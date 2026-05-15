@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="bg-darkBg text-white min-h-screen font-sans">
+    <div className="bg-darkBg text-white  font-sans">
       <nav className="flex justify-between items-center p-8 fixed w-full z-50 bg-darkBg/80 backdrop-blur-md">
-        <div className="text-2xl font-bold tracking-tighter">ANDREW.</div>
+        <div className="text-2xl font-bold tracking-tighter">JAHID.</div>
         <ul className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest text-gray-400">
           <li className="hover:text-white cursor-pointer transition">Home</li>
           <li className="hover:text-white cursor-pointer transition">Services</li>
