@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="lg:col-span-2 space-y-6">
           <div className="flex items-center gap-2 text-white font-extrabold text-2xl tracking-tight">
             <span className="bg-gradient-to-r from-blue-500 to-emerald-500 bg-clip-text text-transparent">
-              JugLu
+              JaHid
             </span>
             <span>Forge</span>
           </div>
@@ -102,7 +102,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-        <p>&copy; {currentYear} JugluSForge. All rights reserved.</p>
+        <p>&copy; {currentYear} JahIdSForge. All rights reserved.</p>
         <div className="flex gap-6">
           {links.legal.map((link, idx) => (
             <a key={idx} href={link.href} className="hover:text-gray-400 transition-colors duration-200">
